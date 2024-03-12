@@ -2,6 +2,7 @@
   "include": ["src/**/*.ts", "src/**/*.vue"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+    "outDir": "dist",
     "importHelpers": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
